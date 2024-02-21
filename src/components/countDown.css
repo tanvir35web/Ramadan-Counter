@@ -1,0 +1,17 @@
+.move {
+    animation: move ease-in-out 1s infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(4rem);
+    }
+
+    50% {
+        transform: translateY(0rem);
+    }
+
+    to {
+        transform: translateY(-4rem);
+    }
+}
